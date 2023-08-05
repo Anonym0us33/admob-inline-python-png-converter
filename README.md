@@ -3,7 +3,9 @@ MAYBE it can convert  the PNGs in your phone to JSON when you click "importer". 
 
 ## To run:
 open in VSCodium
+
 `flutter get pub`
+
 `flutter run`
 
 ## Getting started
@@ -11,7 +13,7 @@ open in VSCodium
 Check out the `main` branch of this repository and follow the steps on [Adding AdMob Banner and Native inline ads to a Flutter app codelab](https://codelabs.developers.google.com/codelabs/admob-inline-ads-in-flutter) to get started.
 
 ## credits
-## Copied from: Adding AdMob Banner and Native inline ads to a Flutter app (See main branch for details)
+### Copied from: Adding AdMob Banner and Native inline ads to a Flutter app (See main branch for details)
 Google's admob mob
 
 [this guy](https://github.com/oobabooga/text-generation-webui/discussions/1227)
