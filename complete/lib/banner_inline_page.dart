@@ -34,7 +34,7 @@ class BannerInlinePage extends StatefulWidget {
 
 class _BannerInlinePageState extends State<BannerInlinePage> {
   // COMPLETE: Add _kAdIndex
-  static const _kAdIndex = 4;
+  static const _kAdIndex = 1;
 
   // COMPLETE: Add a banner ad instance
   BannerAd? _ad;
