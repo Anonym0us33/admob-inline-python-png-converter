@@ -26,6 +26,9 @@ dependencies:
   # COMPLETE: Add google_mobile_ads as a dependency
   google_mobile_ads: ^1.2.0
   flutter_gallery_assets: ^1.0.2
+  image: ^4.0.17
+  args: ^2.4.2
+  chaquopy: ^0.0.19
 
 dev_dependencies:
   flutter_test:

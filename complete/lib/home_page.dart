@@ -56,6 +56,13 @@ class HomePage extends StatelessWidget {
                       Navigator.pushNamed(context, '/native');
                     },
                   ),
+                  const SizedBox(height: 8.0),
+                  ElevatedButton(
+                    child: const Text('importer'),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/import');
+                    },
+                  ),
                 ]);
               } else if (snapshot.hasError) {
                 children.add(Center(

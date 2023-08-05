@@ -1,3 +1,4 @@
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -33,6 +34,9 @@ android {
     }
 
     defaultConfig {
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+        }
         applicationId "com.codelab.flutter.admobinlineads"
         minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
@@ -48,7 +52,8 @@ android {
         }
     }
 }
-
+apply plugin: 'com.android.application' 
+apply plugin: 'com.chaquo.python' 
 flutter {
     source '../..'
 }

@@ -16,6 +16,7 @@ import 'package:admob_inline_ads_in_flutter/banner_inline_page.dart';
 import 'package:admob_inline_ads_in_flutter/destination.dart';
 import 'package:admob_inline_ads_in_flutter/home_page.dart';
 import 'package:admob_inline_ads_in_flutter/native_inline_page.dart';
+import 'package:admob_inline_ads_in_flutter/import.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const HomePage(),
         '/banner': (context) => BannerInlinePage(entries: Destination.samples),
         '/native': (context) => NativeInlinePage(entries: Destination.samples),
+        '/import': (context) => TavernPage(entries: Destination.samples),
       },
     );
   }
