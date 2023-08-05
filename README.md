@@ -6,13 +6,12 @@ open in VSCodium
 `flutter get pub`
 `flutter run`
 
-# Copied from Adding AdMob Banner and Native inline ads to a Flutter app (See main branch for details)
-
 ## Getting started
 
 Check out the `main` branch of this repository and follow the steps on [Adding AdMob Banner and Native inline ads to a Flutter app codelab](https://codelabs.developers.google.com/codelabs/admob-inline-ads-in-flutter) to get started.
 
 ## credits
+## Copied from: Adding AdMob Banner and Native inline ads to a Flutter app (See main branch for details)
 Google's admob mob
 [this guy] (https://github.com/oobabooga/text-generation-webui/discussions/1227)
 [anon122474487139](https://www.chub.ai/characters/anon122474487139/hatsune-miku)
